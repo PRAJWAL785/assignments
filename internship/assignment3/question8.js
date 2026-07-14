@@ -1,7 +1,6 @@
 let Students = {
     name: "Prajwal soni",
     age: 19,
-    rollno: 1,
     grade: "A",
     course: "B-tech"
 }
