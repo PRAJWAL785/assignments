@@ -1,0 +1,239 @@
+/* CSS Variables */
+
+:root{
+
+    --primary:#2c3e50;
+    --secondary:#3498db;
+    --background:#f4f4f4;
+    --white:#ffffff;
+}
+
+/* Reset */
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+body{
+
+    font-family:Arial, sans-serif;
+    background:var(--background);
+}
+
+/* Header */
+
+header{
+
+    background:var(--primary);
+    color:white;
+    text-align:center;
+    padding:40px;
+
+}
+
+header p{
+
+    margin-top:10px;
+
+}
+
+/* About Section */
+
+.about{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+
+    padding:50px;
+
+}
+
+.about img{
+
+    width:180px;
+    height:180px;
+
+    border-radius:50%;
+
+}
+
+.about-text{
+
+    max-width:600px;
+
+}
+
+.title{
+
+    text-align:center;
+    margin:30px 0;
+
+}
+
+/* Skills */
+
+.skills{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:20px;
+
+    padding:20px;
+
+}
+
+.skill{
+
+    background:var(--secondary);
+
+    color:white;
+
+    padding:20px;
+
+    border-radius:10px;
+
+    width:150px;
+
+    text-align:center;
+
+}
+
+/* Projects */
+
+.projects{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:20px;
+
+    padding:20px;
+
+}
+
+.card{
+
+    background:white;
+
+    padding:20px;
+
+    border-radius:10px;
+
+    box-shadow:0 4px 10px rgba(0,0,0,.2);
+
+    text-align:center;
+
+}
+
+/* Contact */
+
+form{
+
+    width:60%;
+
+    margin:auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+    padding:20px;
+
+}
+
+input,
+
+textarea{
+
+    padding:12px;
+
+    border:1px solid gray;
+
+    border-radius:5px;
+
+}
+
+button{
+
+    padding:12px;
+
+    background:var(--secondary);
+
+    color:white;
+
+    border:none;
+
+    border-radius:5px;
+
+    cursor:pointer;
+
+}
+
+button:hover{
+
+    background:#21618c;
+
+}
+
+/* Footer */
+
+footer{
+
+    background:var(--primary);
+
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+
+    margin-top:30px;
+
+}
+
+/* Responsive Design */
+
+@media(max-width:768px){
+
+    .about{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+    .projects{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .skills{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    form{
+
+        width:90%;
+
+    }
+
+}

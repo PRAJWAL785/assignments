@@ -1,0 +1,12 @@
+
+
+function calculateArea(length, width) {
+
+    return length * width;
+
+    }
+
+let length = Number(prompt("Enter the length of the rectangle:"));
+let width = Number(prompt("Enter the width of the rectangle:"));
+let area = calculateArea(length,width);
+document.write("The area of the rectangle is: " + area);

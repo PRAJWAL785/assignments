@@ -1,0 +1,181 @@
+body{
+    background-color: #ccccff;
+    color: #e8edf8;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    margin: 10px 200px  ;
+
+}
+/* #profile{
+    color: #5c5c99;
+    border: 5px solid rgba(57, 57, 144, 0.885);
+    padding: 8px;
+    display: inline-block;
+    border-radius: 50px;
+} */
+.img{
+    position: absolute;
+      top: 150px; 
+      left: 900px;
+      width: 150px;
+      height: 150px;
+      object-fit: cover; 
+      border-radius: 90px; 
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+}
+.name {
+      position: absolute;
+      top: 180px;         
+      left: 200px;            
+      font-family:"Space Grotesk", sans-serif;
+      font-size: 60px;   
+      font-weight: 500;   
+      color: #292966;     
+      margin: 0;
+    }
+#name{
+     position: absolute;
+      top: 240px;         
+      left: 200px;            
+      font-family:"Space Grotesk", sans-serif;
+      font-size: 60px;   
+      font-weight: 500;   
+      color: #292966;
+      margin: 0; 
+    }
+#cse{
+    position: absolute;
+      top: 300px;         
+      left: 200px;            
+      font-family:"Space Grotesk", sans-serif;
+      font-size: 45px;   
+      font-weight: 500;   
+      color: #292966;
+      margin: 0;    
+
+
+    }
+.all{
+    position: absolute;
+      top: 370px;         
+      left: 200px;            
+      font-family:"Space Grotesk", sans-serif;
+      font-size: 20px;   
+      font-weight: 50;   
+      color: #7777b7;
+      margin: 0;    
+
+}
+.skill{
+    position: absolute;
+      top: 480px;         
+      left: 200px;            
+      font-family:"Space Grotesk", sans-serif;
+      font-size: 20px;   
+      font-weight: 50;   
+      color: #292966;
+      margin: 0;   
+}
+.ul {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 16px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.ul li {
+  background-color: #b5b5ff; 
+  border: 1px solid #1e2238; 
+  border-radius: 12px; 
+  padding: 24px; 
+  min-width: 180px;
+  flex: 1;
+
+   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  
+ 
+  color: #292966;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+
+}
+
+.ul span {
+  font-size: 24px;
+}
+.skill1{
+    position: absolute;
+      top: 700px;         
+      left: 200px;            
+      font-family:"Space Grotesk", sans-serif;
+      font-size: 20px;   
+      font-weight: 50;   
+      color: #292966;
+      margin: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; /* Prevents double borders */
+  background-color: #b5b5ff; /* Matches the card background */
+  font-family: "Space Grotesk", sans-serif;
+  color: #292966;
+  font-size: 14px;
+}
+th {
+  background-color: #161a30; 
+  color: #a0aec0; 
+  font-weight: 800;
+  text-align: left;
+  padding: 16px 24px;
+  border-bottom: 1px solid #1e2238;
+}
+td {
+  padding: 16px 24px;
+  border-bottom: 1px solid #1e2238; 
+  color: #e2e8f0;
+}
+.pro{
+   position: absolute;
+      top: 980px;         
+      left: 200px;            
+      font-family:"Space Grotesk", sans-serif;
+      font-size: 20px;   
+      font-weight: 50;   
+      color: #292966;
+      margin: 0; 
+}
+/* .h {
+  /* background-color: #b5b5ff; 
+  border: 1px solid #1c2242;
+  border-radius: 12px; 
+  padding: 24px; 
+  
+  
+  display: flex;
+  flex-direction: column;
+  gap: 12px; 
+  font-family:"Space Grotesk", sans-serif ;
+} */ 
+/* .h h3 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+}
+.h p {
+  margin: 0;
+  color: #64748b; 
+  font-size: 14px;
+  line-height: 1.6;
+}
+ */
+
+
+
+

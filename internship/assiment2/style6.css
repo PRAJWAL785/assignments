@@ -1,0 +1,46 @@
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.relative-box{
+    width: 300px;
+    height: 200px;
+    background-color: lightblue;
+    border: 2px solid blue;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.absolute-box{
+    width: 120px;
+    height: 70px;
+    background-color: tomato;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+}
+
+.button:hover{
+    background-color: darkgreen;
+}
