@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Form Handling</title>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+
+    <h1>Student Form</h1>
+
+    <input type="text" id="name" placeholder="Enter Name">
+    <br>
+    <br>
+
+    <input type="text" id="course" placeholder="Enter Course">
+    <br>
+    <br>
+
+    <input type="text" id="phone" placeholder="Enter Phone Number">
+   <br>
+   <br>
+
+    <button type="button" id="submit">Submit</button>
+
+    <p id="details"></p>
+
+    <script>
+
+        $("#submit").click(function() {
+
+            let name = $("#name").val();
+            let course = $("#course").val();
+            let phone = $("#phone").val();
+
+         $("#details").html(
+            "Name: " + name + "<br>" + "Course: " + course + "<br>" + "Phone Number: " + phone);
+
+        $("#name").val("");
+        $("#course").val("");
+        $("#phone").val("");
+
+        });
+
+
+    </script>
+
+</body>
+</html>

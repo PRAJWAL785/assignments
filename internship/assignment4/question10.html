@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    
+     <style>
+        .change {
+            font-size: 25px;
+            color: white;
+            background-color: blue;
+        }
+    </style>
+
+    <p id="name">i am prajwal soni.</p>
+
+    <button id="button">Change Style</button>
+
+    <script>
+
+        $("#button").click(function() {
+            $("#name").toggleClass("change");
+            //yaha par hamne toggleClass ka use kiya hai jisse ki ham class ko add or remove kar sakte hai. like a switch.
+        });
+
+    </script>
+</body>
+</html>

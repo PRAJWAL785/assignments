@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+    <ul id="list">
+        <li id="item1">Item 1</li>
+        <li id="item2">Item 2</li>
+        <li id="item3">Item 3</li>
+    </ul>
+
+    <button id="add">Add Item</button>
+    <button id="remove">Remove Item</button>
+    <button id="change">Change Item</button>
+
+    <script>
+
+        $("#add").click(function() {
+            $("#list").append("<li>New Item</li>");
+        });
+
+        $("#remove").click(function() {
+            $("#item1").remove();
+        });
+
+        $("#change").click(function() {
+            $("#item2").text("Changed Item");
+        });
+
+    </script>
+
+    
+</body>
+</html>

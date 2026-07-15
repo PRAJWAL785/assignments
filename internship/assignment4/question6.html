@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <p id = "text"> i am prajwal soni</p>
+    <p id = "text2"> i am a student</p>
+    <p id = "text3"> i want to be a web developer</p>
+
+    <button id="hide">To hide the text</button>
+    <button id="show">To show the text</button>
+    <button id="change">To change the colour</button>
+
+    <script>
+
+        $("#hide").click(function() {
+            $("p").hide();
+        });
+
+        $("#show").click(function() {
+            $("p").show();
+        });
+
+        $("#change").click(function() {
+            $("p").css("color", "lightblue");
+        });
+
+    </script>
+    
+</body>
+</html>

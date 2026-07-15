@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+        <p id = "result"></p>
+        <script>
+    function calculate(num){
+        let max = num[0];
+        let min = num[0];
+        sum = 0;
+
+        for(let a of num){
+            if(a > max){
+                max = a;
+            }
+            if(a < min){
+                min = a;
+            }
+
+            sum += a;
+        }
+         let avg = sum / num.length;
+
+         document.getElementById("result").innerHTML =
+                "Maximum: " + max + "<br>" +
+                "Minimum: " + min + "<br>" +
+                "Average: " + avg;
+        
+
+    }
+
+    let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    calculate(num);
+    </script>
+    
+</body>
+</html>
