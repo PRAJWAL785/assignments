@@ -1,4 +1,4 @@
-let number = Number(prompt("Enter your marks:"));
+let marks = Number(prompt("Enter your marks:"));
  
 if (marks >= 90 && marks <= 100) {
        document.write("Grade: A");
